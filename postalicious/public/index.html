@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Postalicious Clone - Zu, BJ, Di </title>
+    <script type = 'text/javascript' src='javascript/script.js'></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+      <div class='unblock'>
+        <h3> Method </h3>
+        <input type='text' id='method'/>
+        <h3> Host </h3>
+        <input type='text' id='host'/>
+      </div>
+
+      <div class='unblock'>
+        <h3> Query Parameters </h3>
+        <div class='sameline'>
+          <input type='text' id='qkey1'/>
+          <input type='text' id='qvalue1'/>
+        </div>
+        <div class='sameline'>
+          <input type='text' id='qkey2'/>
+          <input type='text' id='qvalue2'/>
+        </div>
+        <div class='sameline'>
+          <input type='text' id='qkey3'/>
+          <input type='text' id='qvalue3'/>
+        </div>
+      </div>
+
+      <div class='unblock'>
+        <h3> Headers </h3>
+        <div class='sameline'>
+          <input type='text' id='hkey1'/>
+          <input type='text' id='hvalue1'/>
+        </div>
+        <div class='sameline'>
+          <input type='text' id='hkey2'/>
+          <input type='text' id='hvalue2'/>
+        </div>
+        <div class='sameline'>
+          <input type='text' id='hkey3'/>
+          <input type='text' id='hvalue3'/>
+        </div>
+      </div>
+
+      <div class='unblock'>
+        <h3> Body </h3>
+        <textarea name='body' placeholder='Body of the request goes here...'></textarea>
+      </div>
+
+      <div class='buttons'>
+        <button>Build Request</button>
+        <button>Build &amp; Send</button>
+      </div>
+      
+  </body>
+</html>

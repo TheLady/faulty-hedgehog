@@ -1,0 +1,14 @@
+.unblock {
+  display: inline-block;
+  height: 250px;
+  width: 400px;
+  padding: 20px 20px 0 20px;
+}
+
+.sameline {
+  display: block;
+}
+
+.buttons {
+  padding: 20px 0 0 20px;
+}

@@ -4,6 +4,8 @@
   "description": "A simple clone of Chrome App called Postman",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
+    "pl": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
