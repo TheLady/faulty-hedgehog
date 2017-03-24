@@ -1,0 +1,25 @@
+{
+  "name": "postalicious_clone_application",
+  "version": "1.0.0",
+  "description": "A simple clone of Chrome App called Postman",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zubairnahmed/Postalicious_App_Clone.git"
+  },
+  "author": "Zu, BJ, Di",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zubairnahmed/Postalicious_App_Clone/issues"
+  },
+  "homepage": "https://github.com/zubairnahmed/Postalicious_App_Clone#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
