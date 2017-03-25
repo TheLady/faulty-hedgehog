@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-    <form action=''>
+    <form>
 
       <div class='unblock'>
         <h3> Method </h3>
@@ -51,11 +51,20 @@
         <h3> Body </h3>
         <textarea name='body' placeholder='Body of the request goes here...'></textarea>
       </div>
+    </form>
 
       <div class='buttons'>
-        <button>Build Request</button>
+        <button onclick="buildRequest()">Build Request</button>
         <button>Build &amp; Send</button>
       </div>
-    </form>
+
+
+    <div class='unblock' id='request'>
+      <h3> REQUEST </h3>
+    </div>
+    <div class='unblock' id='response'>
+      <h3> RESPONSE </h3>
+    </div>
+
   </body>
 </html>
