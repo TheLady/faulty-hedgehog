@@ -57,23 +57,23 @@ It is an API with a web form as a user interface and a dependency called sandbox
 
 **Postalicious**
 
-- [ ] Can run the command `npm run postalicious` (or `npm run pl`, if you want to save some typing) to start the Postalicious app at port 3001.
-- [ ] Users can visit the main page of the Postalicious site at `http://localhost:3001`.
-- [ ] Main page has three main sections:
-  - [ ] Request builder HTML form
-  - [ ] Raw HTTP request
-  - [ ] Raw HTTP response
-- [ ] When a user fills out the HTML form and clicks a "Send" button...
-  - [ ] The raw HTTP request is generated and shown
+- [x] Can run the command `npm run postalicious` (or `npm run pl`, if you want to save some typing) to start the Postalicious app at port 3001.
+- [x] Users can visit the main page of the Postalicious site at `http://localhost:3001`.
+- [x] Main page has three main sections:
+  - [x] Request builder HTML form
+  - [x] Raw HTTP request
+  - [x] Raw HTTP response
+- [x] When a user fills out the HTML form and clicks a "Send" button...
+  - [x] The raw HTTP request is generated and shown
   - [ ] The HTTP request is sent, and the raw response message is shown
-- [ ] Users can fill out an HTML form to specify HTTP request details.
+- [x] Users can fill out an HTML form to specify HTTP request details.
 - [ ] Submitting the form will send the request according to the specified details.
-- [ ] Using the HTML form, users can specify...
-  - [ ] host and path
-  - [ ] HTTP verb/method
-  - [ ] query parameter keys + values
-  - [ ] header keys + values
-  - [ ] request body
+- [x] Using the HTML form, users can specify...
+  - [x] host and path
+  - [x] HTTP verb/method
+  - [x] query parameter keys + values
+  - [x] header keys + values
+  - [x] request body
 
 ### Stretch
 
