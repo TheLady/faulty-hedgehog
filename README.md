@@ -9,6 +9,27 @@ The goal of this project is to create Postalicious, a loose clone of the Postman
 
 It is an API with a web form as a user interface and a dependency called sandbox server (a simple HTTP server), created using Node JS and Express.
 
+## Installation Guide:
+
+- Clone this repository using $ git clone https://github.com/TheLady/faulty-hedgehog
+- Run $ npm install.
+- Navigate into Sandbox-Server directory
+- Start program with terminal '$ npm run sb'
+- Go to http://localhost:3000 to view 'Welcome to Sandbox Server!' message
+- Navigate into Postalicious directory
+- Start program with terminal '$ npm run postalicious'
+- Go to http://localhost:3001 to view our Postalicious front-end Postman Clone
+
+## Installation Example:
+
+Use Cases: 
+Postalicious
+You have an app that is hosted on a particular port, and you want to see the details of your requests.
+- Press 'BUILD REQUEST' to see your request under the REQUEST div.
+
+Sandbox-Server
+For example, start it with 'npm run sb', and navigate to http://localhost:3000/not-a-page to see that the server is setup and running.
+
 ## Specifications
 
 **General**
@@ -87,7 +108,6 @@ Use the stretch goals to go deeper into the nuts and bolts of HTTP.
   - [ ] Get all tweets with the hashtag `#javascript` with the Twitter API
   - [ ] Any other API request(s) of your choice
   - [ ] External HTTP requests are saved in files under a `example-requests/` directory (make sure to obscure any secure information before saving these files, like your password or authentication token)
-
 
 ## Challenge Rating
 
